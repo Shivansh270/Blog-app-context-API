@@ -1,8 +1,17 @@
 import React from 'react'
+import Header from '../components/Header';
+import Blogs from '../components/Blogs';
+import Pagination from '../components/Pageination';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Header/>
+      <div>
+        <Blogs/>
+        <Pagination/>
+      </div>
+    </div>
   )
 }
 
